@@ -8,11 +8,6 @@ The goals / steps of this project are the following:
 * Make a pipeline that finds lane lines on the road
 * Reflect on your work in a written report
 
-
-[//]: # (Image References)
-
-[image1]: ./examples/grayscale.jpg "Grayscale"
-
 ---
 
 ### Reflection
@@ -35,9 +30,6 @@ I left all of the help functions intact except for draw_lines().  I modified it 
 into left and right based on +/- negative slope.  Filter out more horizontal slopes as noise.  Then
 for left and right, compute an average y=max intercept(closest to car) and average slope to 
 display the combined left and right lane lines.
-
-![alt text][image1]
-
 
 ### 2. Identify potential shortcomings with your current pipeline
 
